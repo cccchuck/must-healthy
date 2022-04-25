@@ -1,46 +1,47 @@
-# must-healthy
+# 🚀 说明
 
-This template should help get you started developing with Vue 3 in Vite.
+## 👨🏻‍💻 作者
 
-## Recommended IDE Setup
+Chuck，数据科学专业大二在校生，坐标九州通衢郑州，目标字节！
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+一颗绿到不能再绿的韭菜，却总想着一夜暴富。
 
-## Type Support for `.vue` Imports in TS
+一个天天总想躺平的新时代青年。
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+哦对了，性别男，爱好女。
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+联系方式在下面。
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+其他就没有了。
 
-## Customize configuration
+## 🐳 数据
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+部分图片数据来自于一个叫 ![百度](https://www.baidu.com) 的地方。
 
-## Project Setup
+热量数据和部分图片数据来自于一个叫 ![薄荷健康](https://boohee.com) 的地方。
 
-```sh
-npm install
-```
+本项目仅仅只是用于完成一个叫 Web 的选修课的作业。
 
-### Compile and Hot-Reload for Development
+Okay，so 它遵循 ![MIT](https://baike.baidu.com/item/MIT%E8%AE%B8%E5%8F%AF%E8%AF%81/6671281?fr=aladdin) 协议，你可以拿去随便搞，记得给我一个小星星!
 
-```sh
+## 🔧 技术
+
+用了一个尤姓男子写的一个叫 ![Vue](https://github.com/vuejs/vue) 的框架。
+
+用了一个尤姓男子写的一个叫 ![Vite](https://github.com/vitejs/vite) 的打包工具。
+
+用了一个叫托尼写的一个叫 ![Unocss](https://github.com/unocss/unocss) 的 Pure CSS 库。
+
+用了一个不知道叫什么写的一个叫 ![TypeScript](https://github.com/microsoft/TypeScript) 的语言开发。
+
+上面是吹 🐂🍺 的，只有 ![Unocss](https://github.com/unocss/unocss) 用的多了一点。
+
+## 💻 怎么用?
+
+```bash
+npm i
+
 npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
 npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
