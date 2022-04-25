@@ -25,10 +25,6 @@ media.addEventListener('change', () => {
   toggleShowMode(isDark.value)
 })
 
-const getIcon = (icon: string): string => {
-  return `i-mdi-${icon}`
-}
-
 const handleToggleMode = () => {
   isDark.value = !isDark.value
   toggleShowMode(isDark.value)
@@ -73,7 +69,7 @@ const handleToggleMode = () => {
         class="hover:dark:bg-zinc-700"
         @click="$router.push({ name: item.name })"
       >
-        <div :class="getIcon(item.icon)" w-6 h-6></div>
+        <div :class="item.icon" w-6 h-6></div>
         <span ml-2>{{ item.title }}</span>
       </li>
     </ul>

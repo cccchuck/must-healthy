@@ -7,12 +7,12 @@ const navList = ref([
   {
     title: '首页',
     name: 'home',
-    icon: 'home-circle',
+    icon: 'i-mdi-home-circle',
   },
   {
     title: '说明',
     name: 'about',
-    icon: 'email-outline',
+    icon: 'i-mdi-email-outline',
   },
 ])
 </script>
