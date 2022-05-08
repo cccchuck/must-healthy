@@ -39,8 +39,9 @@ const handleToggleMode = () => {
     py1
     justify-between
     box-border
-    min-w-screen-md
-    max-w-screen-xl
+    xl:min-w-screen-md
+    xl:max-w-screen-xl
+    class="lg:w-4/5"
   >
     <ul flex m0 p0 my-2>
       <li
